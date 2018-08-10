@@ -14,25 +14,6 @@
 //flex slider
 @import '~flexslider/flexslider.css';
 
-
-/*
-my own css
-*/
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-}
-
-body {
-  background-color: #9e9d9d;
-}
-
-.container-fluid{
-  padding:0px;
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
-.flex-direction-nav a { 
-      height: 60px;
-}
+@import 'fullcom_overrides';
+@import 'fullcom_helpers';
+@import 'fullcom_styles';
